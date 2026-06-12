@@ -1,0 +1,262 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Listings - JobFinder</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-briefcase"></i>
+            JobFinder
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<!-- Page Banner -->
+
+<section class="page-banner">
+
+    <h1>Explore Job Opportunities</h1>
+
+    <p>
+        Find the perfect role that matches your skills
+        and career goals.
+    </p>
+
+</section>
+
+<!-- Search Section -->
+
+<section class="job-search-section">
+
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search by job title..."
+    onkeyup="searchJobs()">
+
+</section>
+
+<!-- Job Listings -->
+
+<section class="jobs-page">
+
+    <div class="job-card">
+
+        <i class="fa-solid fa-code card-icon"></i>
+
+        <h3>Frontend Developer</h3>
+
+        <p><strong>Company:</strong> ABC Technologies</p>
+
+        <p><strong>Location:</strong> Hyderabad</p>
+
+        <p><strong>Salary:</strong> ₹5 - ₹8 LPA</p>
+
+        <p>
+            HTML, CSS, JavaScript, React
+        </p>
+
+        <a href="job-details.html" class="apply-btn">
+            View Details
+        </a>
+
+    </div>
+
+    <div class="job-card">
+
+        <i class="fa-solid fa-server card-icon"></i>
+
+        <h3>Backend Developer</h3>
+
+        <p><strong>Company:</strong> XYZ Solutions</p>
+
+        <p><strong>Location:</strong> Bangalore</p>
+
+        <p><strong>Salary:</strong> ₹6 - ₹10 LPA</p>
+
+        <p>
+            Node.js, Express, MongoDB
+        </p>
+
+        <a href="job-details.html" class="apply-btn">
+            View Details
+        </a>
+
+    </div>
+
+    <div class="job-card">
+
+        <i class="fa-solid fa-palette card-icon"></i>
+
+        <h3>UI/UX Designer</h3>
+
+        <p><strong>Company:</strong> Creative Labs</p>
+
+        <p><strong>Location:</strong> Chennai</p>
+
+        <p><strong>Salary:</strong> ₹4 - ₹7 LPA</p>
+
+        <p>
+            Figma, Adobe XD, Prototyping
+        </p>
+
+        <a href="job-details.html" class="apply-btn">
+            View Details
+        </a>
+
+    </div>
+
+    <div class="job-card">
+
+        <i class="fa-solid fa-database card-icon"></i>
+
+        <h3>Database Administrator</h3>
+
+        <p><strong>Company:</strong> DataCorp</p>
+
+        <p><strong>Location:</strong> Pune</p>
+
+        <p><strong>Salary:</strong> ₹7 - ₹12 LPA</p>
+
+        <p>
+            SQL, Oracle, PostgreSQL
+        </p>
+
+        <a href="job-details.html" class="apply-btn">
+            View Details
+        </a>
+
+    </div>
+
+    <div class="job-card">
+
+        <i class="fa-solid fa-mobile-screen-button card-icon"></i>
+
+        <h3>Mobile App Developer</h3>
+
+        <p><strong>Company:</strong> AppWorks</p>
+
+        <p><strong>Location:</strong> Mumbai</p>
+
+        <p><strong>Salary:</strong> ₹6 - ₹11 LPA</p>
+
+        <p>
+            Flutter, Android, Firebase
+        </p>
+
+        <a href="job-details.html" class="apply-btn">
+            View Details
+        </a>
+
+    </div>
+
+    <div class="job-card">
+
+        <i class="fa-solid fa-shield-halved card-icon"></i>
+
+        <h3>Cyber Security Analyst</h3>
+
+        <p><strong>Company:</strong> SecureNet</p>
+
+        <p><strong>Location:</strong> Delhi</p>
+
+        <p><strong>Salary:</strong> ₹8 - ₹15 LPA</p>
+
+        <p>
+            Security Testing, SIEM, SOC
+        </p>
+
+        <a href="job-details.html" class="apply-btn">
+            View Details
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Career Tips -->
+
+<section class="features">
+
+    <h2>Career Tips</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>Strong Resume</h3>
+            <p>Create a resume highlighting your skills and achievements.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Interview Ready</h3>
+            <p>Practice common interview questions before applying.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Keep Learning</h3>
+            <p>Upgrade your skills with certifications and projects.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+    <h3>JobFinder</h3>
+
+    <p>
+        Helping job seekers find the right opportunities.
+    </p>
+
+    <div class="social-icons">
+
+        <i class="fab fa-facebook"></i>
+
+        <i class="fab fa-instagram"></i>
+
+        <i class="fab fa-linkedin"></i>
+
+        <i class="fab fa-twitter"></i>
+
+    </div>
+
+    <p>
+        © 2026 JobFinder. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+```

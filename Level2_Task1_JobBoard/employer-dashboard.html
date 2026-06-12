@@ -1,0 +1,297 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employer Dashboard - JobFinder</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-briefcase"></i>
+            JobFinder
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="employer-dashboard.html">Dashboard</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<!-- Banner -->
+
+<section class="page-banner">
+
+    <h1>Employer Dashboard</h1>
+
+    <p>
+        Manage job postings and track applications.
+    </p>
+
+</section>
+
+<!-- Dashboard -->
+
+<section class="dashboard-container">
+
+    <!-- Employer Profile -->
+
+    <div class="dashboard-card profile-card">
+
+        <i class="fa-solid fa-building profile-icon"></i>
+
+        <h2>ABC Technologies</h2>
+
+        <p>Software Development Company</p>
+
+        <p>
+            Hiring talented professionals across
+            multiple domains.
+        </p>
+
+    </div>
+
+    <!-- Post New Job -->
+
+    <div class="dashboard-card">
+
+        <h2>
+            <i class="fa-solid fa-plus-circle"></i>
+            Post New Job
+        </h2>
+
+        <form class="job-form">
+
+            <input
+            type="text"
+            placeholder="Job Title"
+            required>
+
+            <input
+            type="text"
+            placeholder="Company Name"
+            required>
+
+            <input
+            type="text"
+            placeholder="Location"
+            required>
+
+            <input
+            type="text"
+            placeholder="Salary Package"
+            required>
+
+            <select required>
+
+                <option value="">
+                    Select Job Type
+                </option>
+
+                <option>
+                    Full Time
+                </option>
+
+                <option>
+                    Part Time
+                </option>
+
+                <option>
+                    Internship
+                </option>
+
+                <option>
+                    Remote
+                </option>
+
+            </select>
+
+            <textarea
+            rows="5"
+            placeholder="Job Description"
+            required>
+            </textarea>
+
+            <button
+            type="submit"
+            class="primary-btn">
+
+                Post Job
+
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- Active Jobs -->
+
+    <div class="dashboard-card">
+
+        <h2>
+            <i class="fa-solid fa-briefcase"></i>
+            Active Job Posts
+        </h2>
+
+        <div class="application-item">
+
+            <h3>Frontend Developer</h3>
+
+            <p>15 Applications Received</p>
+
+            <span class="status approved">
+                Active
+            </span>
+
+        </div>
+
+        <div class="application-item">
+
+            <h3>Backend Developer</h3>
+
+            <p>10 Applications Received</p>
+
+            <span class="status approved">
+                Active
+            </span>
+
+        </div>
+
+        <div class="application-item">
+
+            <h3>UI/UX Designer</h3>
+
+            <p>7 Applications Received</p>
+
+            <span class="status pending">
+                Reviewing
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- Recent Applicants -->
+
+    <div class="dashboard-card">
+
+        <h2>
+            <i class="fa-solid fa-users"></i>
+            Recent Applicants
+        </h2>
+
+        <table class="applicant-table">
+
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Haritha Devi</td>
+                <td>Frontend Developer</td>
+                <td>Shortlisted</td>
+            </tr>
+
+            <tr>
+                <td>Rahul Kumar</td>
+                <td>Backend Developer</td>
+                <td>Under Review</td>
+            </tr>
+
+            <tr>
+                <td>Priya Sharma</td>
+                <td>UI/UX Designer</td>
+                <td>Interview Scheduled</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <!-- Statistics -->
+
+    <div class="dashboard-card">
+
+        <h2>
+            <i class="fa-solid fa-chart-column"></i>
+            Recruitment Statistics
+        </h2>
+
+        <div class="stats">
+
+            <div class="stat-box">
+
+                <h2>32</h2>
+
+                <p>Total Applications</p>
+
+            </div>
+
+            <div class="stat-box">
+
+                <h2>8</h2>
+
+                <p>Jobs Posted</p>
+
+            </div>
+
+            <div class="stat-box">
+
+                <h2>5</h2>
+
+                <p>Interviews Scheduled</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+    <h3>JobFinder</h3>
+
+    <p>
+        Helping employers find the right talent.
+    </p>
+
+    <div class="social-icons">
+
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+
+    </div>
+
+    <p>
+        © 2026 JobFinder. All Rights Reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>
+```
